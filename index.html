@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container flex">
+    <div class="wrapper flex">
+      <div class="top flex flex-col">
+        <h3>Your Result</h3>
+        <div class="score flex flex-col">
+          <p>76</p>
+          <span>of 100</span>
+        </div>
+        <div class="result flex flex-col">
+          <h3>Great</h3>
+          <p>You have scored higher than 65% of the people who have taken these tests</p>
+        </div>
+      </div>
+      <div class="middle flex flex-col">
+        <h3>Summary</h3>
+        <div class="middle-content">
+          <div class="item-list flex">
+            <div class="item flex">
+              <img src="assets/images/icon-reaction.svg" alt="">
+              <p>Reaction</p>
+            </div>
+            <div class="your-score ">
+              <p>80 <span> / 100</span> </p>
+            </div>
+          </div>
+          <div class="item-list flex">
+            <div class="item flex">
+              <img src="assets/images/icon-memory.svg" alt="">
+              <p>Memory</p>
+            </div>
+            <div class="your-score">
+              <p>92 <span> / 100</span></p>
+            </div>
+          </div>
+          <div class="item-list flex">
+            <div class="item flex">
+              <img src="assets/images/icon-verbal.svg" alt="">
+              <p>Verbal</p>
+            </div>
+            <div class="your-score">
+              <p>61 <span> / 100</span></p>
+            </div>
+          </div>
+          <div class="item-list flex">
+            <div class="item flex">
+              <img src="assets/images/icon-visual.svg" alt="">
+              <p>Visual</p>
+            </div>
+            <div class="your-score">
+              <p>72 <span> / 100</span></p>
+            </div>
+          </div>
+        </div>
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+  </div>
+
+ 
+</body>
+
+</html>
